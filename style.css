@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    height: 720px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #4285f4;
+}
+.spinner
+{
+    height: 80px;
+    width: 80px;
+    border: 7px solid #fff;
+    border-top-color: transparent;
+    border-radius: 50%;
+    animation: spinner 0.7s linear infinite;
+
+}
+@keyframes spinner{
+    from{}
+    to{transform: rotate(360deg);}
+}
